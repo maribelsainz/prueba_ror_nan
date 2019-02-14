@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<div class="row">
+ <% @todos.each do |todo| %>
+  <div class="card col-sm-3 text-center">
+   <img class="card-img-top img-fluid" src="<%= todo.photo %>" alt="Card image cap">
+   <div class="card-body">
+    <h5 class="card-title"><%= todo.name %></h5>
+    <%# <h6 class="card-title">$<%= todo.description %></h6>
+    <td><%= link_to 'Show', todo, class: 'btn btn-primary' %></td>
+    <%= link_to 'DO', todo_tasks_path(todo), class: 'btn btn-success', method: :post %>
+
+   </div>
+  </div>
+ <% end %>
+</div>
+
+
+
+
