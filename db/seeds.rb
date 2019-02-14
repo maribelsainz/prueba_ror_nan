@@ -32,21 +32,21 @@ Todo.create(
 )
 
 Todo.create(
-  name: "Asado",
-  description: "Hacer un asado con toda tu familia y amigos",
-  photo: "https://www.radiozero.cl/static/2016/06/asado-400x400.jpg"
+  name: "Volantín",
+  description: "Volantín",
+  photo: "https://pbs.twimg.com/profile_images/3746941368/315e362e99c8f1433911cb3a8d9235aa_400x400.jpeg"
 )
 
 Todo.create(
-  name: "Asado",
-  description: "Hacer un asado con toda tu familia y amigos",
-  photo: "https://www.radiozero.cl/static/2016/06/asado-400x400.jpg"
+  name: "Terremoto",
+  description: "Terremoto",
+  photo: "https://img-global.cpcdn.com/002_recipes/recipes_46458_v1393353461_receta_foto_00046458/400x400cq70/photo.jpg"
 )
 
 Todo.create(
-  name: "Asado",
-  description: "Hacer un asado con toda tu familia y amigos",
-  photo: "https://www.radiozero.cl/static/2016/06/asado-400x400.jpg"
+  name: "Tocar guitarra",
+  description: "Tocar guitarra",
+  photo: "http://www.musicapopular.cl/wp-content/uploads/2018/10/rsz_foto-1.jpg"
 )
 
 Todo.create(
